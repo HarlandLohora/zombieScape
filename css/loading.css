@@ -1,0 +1,83 @@
+
+@font-face {
+  font-family: "TrueLies";
+  src: url('../extras/TrueLies.ttf');
+    }
+body {
+  background: none #000;
+}
+
+.abs-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%); /* IE 9 */
+    -webkit-transform: translate(-50%,-50%); /* Safari */
+    -moz-transform: translate(-50%,-50%); /* Firefox Older versions*/
+    -o-transform: translate(-50%,-50%); /* Opera */
+    transform: translate(-50%,-50%);
+}
+/* box fall preloader */
+.sq-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+}
+
+.sq-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none transparent;
+    overflow: hidden;
+}
+
+.sq-fill {
+    background: none #c60a0a;
+    width: 100%;
+    height: 100%;
+}
+
+.loader > div::after {
+    content: "LOADING ZOMBIE ESCAPE";
+    position: absolute;
+    white-space: nowrap;
+    top: 1.875em;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.7;
+    letter-spacing: 0.125em;
+    font-size: 1.075em;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+}
+
+a {
+  color: #c60a0a !important;
+  margin-left: -6px;
+}
+.none{
+    display: none;
+}
+
+#ready{
+    position: absolute;
+    top:400px;
+    left: 610px;
+    color:white;
+    padding:10px 20px;
+    font-size:2em;
+    border:4px #910808 solid;
+    border-radius: 15px;
+    background-color:rgba(198,10,10,0.5);
+    cursor: pointer;
+    font-family: TrueLies;
+}
+
+#ready:hover{
+    background-color:rgba(198,10,10,0.8);
+}

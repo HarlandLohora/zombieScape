@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Zombie Escape</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="shortcut icon" href="img/ZombieEscape.ico" type="image/x-icon"/>
+</head>
+<body>
+	<section class="principal">
+		
+		<h2 id="mS" class="none">Mission Select</h2>
+		<h2 id="sC" class="none">Select Character</h2>
+		<img src="img/instructionsWhite.png" width="300" height="250" class="instructions">
+		<div class="alert none" id="message">
+		  <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+		  <strong>Warning!</strong> Complete previous missions.
+		</div>
+		<button class="backButton none" onclick="mainMenu()">Main Menu</button>
+		<button onclick=""><a href="extras/loading.html"><img src="img/mapSignActive.png" width="50" height="50" id=zero class="point missions none"></a></button>
+		<button onclick="warning()"><img src="img/Sign.png" width="50" height="50" id="one" class=" missions none"></button>
+		<button onclick="warning()"><img src="img/Sign.png" width="50" height="50" id="two" class=" missions none"></button>
+		<button onclick="warning()"><img src="img/Sign.png" width="50" height="50" id="three" class=" missions none"></button>
+		<button onclick="warning()"><img src="img/Sign.png" width="50" height="50" id="four" class=" missions none"></button>
+		<button onclick="warning()"><img src="img/tache.png" width="50" height="50" id="tache" class=" missions none"></button>
+		<div class="info"></div>
+		<div class="selectCharacter none"></div>
+		<div>
+			<button id="gotIt" onclick="gotIt()" class="pulse">Got it!</button>
+		</div>
+		<div id="menu">
+			<button onclick="startGame()" class="select">Start Game</button>
+			<button onclick="instructions()" class="select">Instructions</button>
+			<a href="extras/credits.html"><button class="select" onclick="credits()">Credits</button></a>
+		</div>
+		<audio autoplay loop>
+			<source src="music/mission.mp3" type="audio/mpeg">
+			<source src="" type="">	
+		</audio>
+		<audio preload id="click">
+			<source src="music/select.mp3" type="audio/mpeg">
+		</audio>
+	</section>
+	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

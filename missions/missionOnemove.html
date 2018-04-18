@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="../img/ZombieEscape.ico" type="image/x-icon"/>
+	<title>Zombie Escape</title>
+	<link rel="stylesheet" type="text/css" href="../css/missionOne.css">
+</head>
+<body>
+	<img src="../img/instructionsWhite.png" width="300" height="250" class="instructions none">
+	<div id="menuPlayer">
+		<button class="button">Pause</button>
+		<button class="button" onclick="showInstructions()">Instructions</button>
+		<a href="../index.html"><button class="button">Quit</button></a>
+	</div>
+	<div>
+			<button id="gotIt" onclick="gotIt()" class="pulse none">Got it!</button>
+	</div>
+	<div class=" none"></div>
+	<section>
+		<canvas id="stage" width="1200" height="500"></canvas>
+	</section>
+	<audio autoplay loop>
+			<source src="../music/first.mp" type="audio/mpeg">
+			<source src="" type="">	
+		</audio>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/missionOnemove.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "TrueLies";
+  src: url('../extras/TrueLies.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+button{
+	font-family: "TrueLies";
+}
+body{
+	background-color: black;
+	overflow: hidden;
+	font-family: "TrueLies";
+}
+
+section{
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	margin-top: 10vh;
+  	height: 80vh;
+  	flex-direction: column;
+}
+#menuPlayer{
+	position: absolute;
+	top:27px;
+	left:83px;
+}
+
+.button{
+	color:white;
+  	padding:10px 25px;
+  	font-size:2em;
+  	border:4px #910808 solid;
+  	border-radius: 15px 15px 0 0;
+  	background-color:rgba(198,10,10,0.5);
+  	cursor: pointer;
+  	border-bottom: none;
+
+}
+.button:hover{
+	background-color:rgba(198,10,10,0.8);
+}
+
+button:focus{
+	outline:0;
+}
+.none{
+	display: none;
+}
+.instructions{
+	position:absolute;
+	top:190px;
+	left: 40%;
+	z-index: 1;
+}
+#gotIt{
+	position: absolute;
+	top:60%;
+	left: 45%;
+	color:white;
+  	padding:10px 20px;
+  	font-size:2em;
+  	border:4px #910808 solid;
+  	border-radius: 15px;
+  	background-color:rgba(198,10,10,0.5);
+  	cursor: pointer;
+  	z-index: 1;
+}
+.info{
+	position: absolute;
+	top:15%;
+	left: 30%;
+	width: 40%;
+	height: 50%;
+	background-color: black;
+	opacity: 0.7;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	transform: translateY(20%);
+}
