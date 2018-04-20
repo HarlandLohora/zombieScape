@@ -57,7 +57,7 @@ button:focus{
 }
 .instructions{
 	position:absolute;
-	top:190px;
+	top:170px;
 	left: 40%;
 	z-index: 1;
 }
@@ -86,4 +86,89 @@ button:focus{
 	justify-content: center;
   	align-items: center;
   	transform: translateY(20%);
+}
+
+
+/*MOBILE*/
+
+#mobile{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	top:40%;
+	left: 65%;
+}
+
+.btnMobile{
+	width: 30%;
+	height: 30%;
+}
+
+#upArrow{
+	position: absolute;
+	top:10%;
+	left: 20%;
+}
+
+#leftArrow{
+	position: absolute;
+	top:50%;
+	left: 1%;
+}
+
+#rigthArrow{
+	position: absolute;
+	top:50%;
+	right: -5%;
+}
+
+
+#areU{
+	text-align: center;
+	position: absolute;
+	top:30%;
+	left: 40%;
+	z-index: 1;
+}
+.buttonQuit{
+	cursor: pointer;
+	color:white;
+  	padding:10px 40px;
+  	font-size:2em;
+  	margin: 20px;
+  	background-color: rgba(0,0,0,0.5);
+  	border-radius: 15px;
+}
+.buttonQuit:hover{
+	background-color:rgba(198,10,10,0.8);
+}
+
+
+#videoGameOver{
+	position: absolute;
+	top: 0%;
+
+}
+#title{
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	font-size: 6em;
+}
+
+.buttonGameOver{
+	position: absolute;
+    top:400px;
+    left: 610px;
+    color:white;
+    padding:10px 20px;
+    font-size:2em;
+    border:4px #910808 solid;
+    border-radius: 15px;
+    background-color:rgba(198,10,10,0.5);
+    cursor: pointer;
+    font-family: TrueLies;
+}
+.buttonGameOver:hover{
+    background-color:rgba(198,10,10,0.8);
 }

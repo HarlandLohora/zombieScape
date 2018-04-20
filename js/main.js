@@ -1,6 +1,5 @@
 $( document ).ready(function() {
     console.log( "ready!" );
-  
 
 });
 
@@ -28,6 +27,9 @@ function mainMenu(){
 	$("#menu").css("display","flex");
 	$(".backButton").addClass("none");
 	$(".missions").addClass("none");
+	$("#players").css("display","none");
+	$(".info").addClass("none");
+	$(".info").css("display","none");
 }
 
 function instructions(){
@@ -44,3 +46,8 @@ function warning(){
 function close(){
 	alert("lol");
 }
+function howmany(){
+		$("#players").css("display","initial");
+		$("#mS").css("display","none");
+	
+	}

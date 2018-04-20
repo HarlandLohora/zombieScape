@@ -6,7 +6,12 @@
 body {
   background: none #000;
 }
-
+button:focus{
+    outline:0;
+}
+button:focus{
+    outline:0;
+}
 .abs-center {
     position: absolute;
     top: 50%;

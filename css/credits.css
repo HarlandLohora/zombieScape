@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "TrueLies";
+  src: url('../extras/TrueLies.ttf');
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -46,15 +51,16 @@ button:focus{
 
 
 .cred{
-	animation: credits 30s linear infinite;
+	animation: credits 50s linear infinite;
 	position :relative;
 }
 
 @keyframes credits {
     from {top: 100%;}
-    to {top: -50%;}
+    to {top: -140%;}
 }
 .backButton{
+	font-family: TrueLies;
 	cursor: pointer;
 	position: absolute;
 	top:40px;
@@ -68,4 +74,8 @@ button:focus{
 
 .backButton:hover{
 	background-color:rgba(198,10,10,0.8);
+}
+
+h1{
+	font-size: 3em;
 }

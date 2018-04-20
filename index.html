@@ -18,7 +18,7 @@
 		  <strong>Warning!</strong> Complete previous missions.
 		</div>
 		<button class="backButton none" onclick="mainMenu()">Main Menu</button>
-		<button onclick=""><a href="extras/loading.html"><img src="img/mapSignActive.png" width="50" height="50" id=zero class="point missions none"></a></button>
+		<button onclick="howmany()"><a href="#"><img src="img/mapSignActive.png" width="50" height="50" id=zero class="point missions none"></a></button>
 		<button onclick="warning()"><img src="img/Sign.png" width="50" height="50" id="one" class=" missions none"></button>
 		<button onclick="warning()"><img src="img/Sign.png" width="50" height="50" id="two" class=" missions none"></button>
 		<button onclick="warning()"><img src="img/Sign.png" width="50" height="50" id="three" class=" missions none"></button>
@@ -33,6 +33,11 @@
 			<button onclick="startGame()" class="select">Start Game</button>
 			<button onclick="instructions()" class="select">Instructions</button>
 			<a href="extras/credits.html"><button class="select" onclick="credits()">Credits</button></a>
+		</div>
+		<div id="players" class="none">
+			<h5>How many players?</h5>
+			<a href="extras/loading.html"><button>One Player</button></a>
+			<a href="extras/loadingTwoPlayers.html"><button>Two Players</button></a>
 		</div>
 		<audio autoplay loop>
 			<source src="music/mission.mp3" type="audio/mpeg">
