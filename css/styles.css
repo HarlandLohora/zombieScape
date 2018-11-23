@@ -11,7 +11,7 @@
 	color: white;
 	font-family: "TrueLies";
 }
-	
+
 body{
 	overflow: hidden;
 	font-family: "TrueLies";
@@ -47,8 +47,8 @@ body{
 	opacity: 0.7;
 	display: flex;
 	justify-content: center;
-  	align-items: center;
-  	transform: translateY(20%);
+  align-items: center;
+  transform: translateY(20%);
 }
 
 .selectCharacter{
@@ -64,7 +64,7 @@ body{
 
 .instructions{
 	position:absolute;
-	top:210px;
+	top:250px;
 	z-index: 1;
 }
 
@@ -115,19 +115,19 @@ h2{
 @keyframes pulse{
 	0%{
 		box-shadow: 0 0 0 0 rgba(255,109,74,.7),
-		0 0 0 0 rgba(255,109,74,.7);	
+		0 0 0 0 rgba(255,109,74,.7);
 	}
 	40%{
 		box-shadow: 0 0 0 30px rgba(255,109,74,0),
-		0 0 0 0 rgba(255,109,74,.7);	
+		0 0 0 0 rgba(255,109,74,.7);
 	}
 	80%{
 		box-shadow: 0 0 0 30px rgba(255,109,74,0),
-		0 0 0 15px rgba(255,109,74,0);	
+		0 0 0 15px rgba(255,109,74,0);
 	}
 	100%{
 		box-shadow: 0 0 0 0 rgba(255,109,74,0),
-		0 0 0 15px rgba(255,109,74,0);	
+		0 0 0 15px rgba(255,109,74,0);
 	}
 }
 
@@ -263,5 +263,3 @@ button:focus{
 h5{
 	font-size: 3em;
 }
-
-
